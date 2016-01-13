@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>2뎁스 메뉴</title>
+	<style>
+		html,body,ul{margin:0;padding:0}
+		ul{list-style:none}
+		.depth_1{float:left;margin:0 5px;color:white}
+		.depth_1 a{background-color:red}
+		.depth_2{margin:5px 0}
+		.depth_2 a{background-color:blue}
+		a{color:white;text-decoration:none}
+
+		.clearfix:before, .clearfix:after {display:table; content:""}
+		.clearfix:after {clear:both}
+	</style>
+</head>
+<body>
+	<ul id="menu" class="clearfix">
+		<li class="depth_1"><a href="#">1뎁스_01</a></li>
+		<li class="depth_1">
+			<a href="#">1뎁스_02</a>
+			<ul>
+				<li class="depth_2"><a href="#">2뎁스_01</a></li>
+				<li class="depth_2"><a href="#">2뎁스_02</a></li>
+				<li class="depth_2"><a href="#">2뎁스_03</a></li>
+			</ul>
+		</li>
+		<li class="depth_1">
+			<a href="#">1뎁스_03</a>
+			<ul>
+				<li class="depth_2"><a href="#">2뎁스_01</a></li>
+				<li class="depth_2"><a href="#">2뎁스_02</a></li>
+			</ul>
+		</li>
+	</ul>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script>
+
+	</script>
+</body>
+</html>
