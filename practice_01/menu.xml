@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+	<depth1 name="네이버" link="http://www.naver.com">
+
+	</depth1>
+	<depth1 name="쇼핑" link="#">
+		<depth2 name="11번가" link="http://www.11st.co.kr"></depth2>
+		<depth2 name="G마켓" link="http://www.gmarket.co.kr"></depth2>
+		<depth2 name="옥션" link="http://www.auction.co.kr"></depth2>
+	</depth1>
+	<depth1 name="검색엔진" link="#">
+		<depth2 name="구글" link="http://www.google.com"></depth2>
+		<depth2 name="네이버" link="http://www.naver.com"></depth2>
+	</depth1>
+</menu>
